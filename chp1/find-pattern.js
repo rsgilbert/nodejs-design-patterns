@@ -27,6 +27,9 @@ FindPattern.prototype.find = function _() {
     self.files.forEach(function _(file) {
         require('fs').readFile(
             file, 'utf8', function _(err, content) {
+                // Events emitted inside this function are emitted
+                // asynchronously which means there is enough time
+                // to setup the listeners
                 if(err) {
                     return self.emit('error', err)
                 }
