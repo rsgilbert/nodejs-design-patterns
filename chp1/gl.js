@@ -1,0 +1,1 @@
+global.myName = 'GET'
