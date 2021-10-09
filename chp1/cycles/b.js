@@ -1,7 +1,7 @@
 exports.loaded = false 
-let b = require('./b')
 
+let a = require('./a')
 module.exports = {
-    bWasLoaded: b.loaded,
+    aWasLoaded: a.loaded,
     loaded: true
 }
