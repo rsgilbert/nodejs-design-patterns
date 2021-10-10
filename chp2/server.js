@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
 })
 
 
+app.get('/:t', (req, res) => {
+    res.send(req.params.t)
+})
+
 const port = 3000
 app.listen(port, () => {
     console.log('runnning on port', port)
