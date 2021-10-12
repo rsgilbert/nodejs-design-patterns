@@ -5,3 +5,10 @@ module.exports.urlToFilename = function(url) {
 module.exports.tLink = function(t) {
     return `./downloads/spider/${t}.txt`
 }
+
+module.exports.timeout = (time, callback) => {
+    setTimeout(callback, time)
+}
+
+module.exports.second = callback => setTimeout(callback, 1000)
+
