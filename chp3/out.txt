@@ -1,0 +1,122 @@
+new data available
+const fs =
+ require('
+fs')
+const
+ zlib = re
+quire('zli
+b')
+
+const
+ filename 
+= process.
+argv[2] ||
+ 'a.txt'
+
+
+
+function 
+zipStream(
+) {
+    fs
+.createRea
+dStream(fi
+lename)
+  
+      .pip
+e(zlib.cre
+ateGzip())
+
+        .
+pipe(fs.cr
+eateWriteS
+tream(`${f
+ilename}.g
+z`))
+     
+   .on('fi
+nish', () 
+=> {
+     
+       con
+sole.log('
+File succe
+ssfully co
+mpressed')
+
+        }
+)
+}
+zipStr
+eam()
+
+fun
+ction zipB
+uffer() {
+
+    fs.rea
+dFile(file
+name, (err
+, buffer) 
+=> {
+     
+   if(err)
+ return co
+nsole.log(
+'fs read e
+rror', err
+)
+        
+console.lo
+g('read bu
+ffer', buf
+fer)
+     
+   zlib.gz
+ip(buffer,
+ (err, buf
+fer) => {
+
+          
+  if(err) 
+return con
+sole.log('
+zlib error
+', err)
+  
+          
+console.lo
+g('zlib bu
+ffer', buf
+fer)
+     
+       fs.
+writeFile(
+`${filenam
+e}.gz`, bu
+ffer, err 
+=> {
+     
+          
+ if(err) r
+eturn cons
+ole.log('w
+rite error
+', err)
+  
+          
+    consol
+e.log('fil
+e successf
+ully compr
+essed')
+  
+          
+})
+       
+ })
+    })
+new data available
+
+}
+End of stream
