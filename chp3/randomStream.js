@@ -1,5 +1,7 @@
 // Implementing a readable stream that generates 
 // random strings
+// A readable stream represents a data source
+
 const stream = require('stream')
 const util = require('util')
 const chance = require('chance').Chance()
@@ -7,7 +9,7 @@ const chance = require('chance').Chance()
 
 function RandomStream(options) {
     stream.Readable.call(this, options)
-}
+}   
 
 util.inherits(RandomStream, stream.Readable)
 

@@ -7,3 +7,7 @@ randomStream.on('readable', () => {
         console.log('chunk is', chunk)
     }
 })
+
+randomStream.on('end', () => {
+    console.log('random stream ended')
+})
