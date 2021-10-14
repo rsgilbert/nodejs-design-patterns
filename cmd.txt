@@ -1,0 +1,3 @@
+// terminal cmd
+// Replace any occurrence of World with Node.js
+echo Hello World! | sed s/World/Node.js/g
