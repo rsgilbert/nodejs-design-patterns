@@ -1,1 +1,665 @@
-This is A
+This is A// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)ff
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
+// Forking a stream
+// We transform to sha1 and also transform to md5
+// Back pressure will work out of the box. The flow
+// coming from inputStream will go as fast as the slowest
+// branch of the fork
+
+const fs = require('fs')
+const crypto = require('crypto')
+
+
+const sha1Stream = crypto.createHash('sha1')
+sha1Stream.setEncoding('base64')
+
+
+const md5Stream = crypto.createHash('md5')
+md5Stream.setEncoding('base64')
+
+
+const fileName = './a.txt'
+
+const inputStream = fs.createReadStream(fileName)
+
+
+
+inputStream
+    .pipe(sha1Stream)
+    .pipe(fs.createWriteStream(fileName + '.sha1'))
+
+console.log('moving on to md5')
+inputStream
+    .pipe(md5Stream)
+    .pipe(fs.createWriteStream(fileName + '.md5'))
+console.log('finished md5')
+
+
