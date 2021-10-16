@@ -11,8 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "from2-array": "0.0.4",
+    "fstream": "^1.0.12",
     "multipipe": "^4.0.0",
     "split": "^1.0.1",
+    "tar": "^6.1.11",
     "through2": "^4.0.2",
     "through2-parallel": "^0.1.3"
   }
