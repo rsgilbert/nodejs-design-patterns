@@ -5,8 +5,8 @@
 // The factory allows us to not expose the constructors of the objects
 // it creates and prevents them from being extended or modified.
 // This is achieved by only exporting the factory keeping the Constructor private.
-const { exception } = require("console");
-
+// Factories are commonly exposed by modules as a convenient way
+// to create new instances eg http.createServer() rather than new http.Server()
 function createImage(name) {
     if(name.match(/\.jpeg$/)) {
         return new JpegImage(name)
