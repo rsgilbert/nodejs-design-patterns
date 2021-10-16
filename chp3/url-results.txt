@@ -1,0 +1,9 @@
+http://localhost:8585 is down
+http://localhost:8080 is down
+http://localhost:5555 is down
+http://localhost:3000 is up
+https://facebook.com is down
+https://ubl.manageddynamics365.com  is up
+http://www.google.com is up
+https://hrp-qr-api.herokuapp.com is up
+https://stackoverflow.com  is up

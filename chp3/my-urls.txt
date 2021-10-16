@@ -1,0 +1,9 @@
+http://localhost:8585
+http://localhost:8080
+http://www.google.com
+https://facebook.com
+https://stackoverflow.com 
+http://localhost:5555
+https://ubl.manageddynamics365.com 
+https://hrp-qr-api.herokuapp.com
+http://localhost:3000
