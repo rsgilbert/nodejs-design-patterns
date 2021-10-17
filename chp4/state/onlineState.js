@@ -13,6 +13,8 @@ OnlineState.prototype.send = function(data) {
 }
 
 OnlineState.prototype.activate = function() {
+    // Please note that we haven't created the socket
+    // We are assuming it was created from offlineState module
     const self = this;
     console.log('flushing queue', self.failsafeSocket.queue)
     self.failsafeSocket.queue.forEach(function(data) {
